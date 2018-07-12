@@ -567,7 +567,7 @@ block device and other parameters to suit your situation.
     use by your thin pool, and the volume group's name.
 
     ```bash
-    $ sudo pvdisplay |grep 'VG Name'
+    $ sudo pvdisplay |grep 'Name'
 
     PV Name               /dev/xvdf
     VG Name               docker
